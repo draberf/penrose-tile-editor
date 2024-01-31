@@ -7,11 +7,6 @@ import src.dartsandkites_svg
 import xml.etree.ElementTree as ET
 import cairosvg
 
-def createImage(*args) -> None:
-    preview = Frame(workspace, width=400, height=300)
-    preview.grid(column=0, row=0)
-    Label(preview, image=img).grid(column=0,row=0)
-
 class App(Tk):
     
     def __init__(self, *args, **kwargs):
